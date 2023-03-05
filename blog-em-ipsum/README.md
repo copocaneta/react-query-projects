@@ -11,6 +11,17 @@
   - prefetching
   - mutations
 
+## dev steps:
+
+- `yarn add react-query`
+- create query client
+  - client that manages queries and cache
+- apply QueryProvider
+  - provides cache and client config to children
+  - takes queruy client as the value
+- run `useQuery`
+  - hook that queries the server
+
 ## Installation
 
 - Run `npm install`
