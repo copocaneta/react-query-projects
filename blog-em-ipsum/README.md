@@ -22,6 +22,15 @@
 - run `useQuery`
   - hook that queries the server
 
+## React Query dev tools
+
+- shows queries (by keys)
+  - status of queries
+  - last updated timestamp
+- Data explorer
+- Query explorer
+- [https://react-query.tanstack.com/devtools](https://react-query.tanstack.com/devtools)
+
 ## Installation
 
 - Run `npm install`
