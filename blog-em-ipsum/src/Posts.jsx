@@ -19,7 +19,8 @@ export function Posts() {
   // replace with useQuery
   const { data, isError, error, isLoading } = useQuery(
     'posts',
-    fetchPosts
+    fetchPosts,
+    { staleTime: 2000 }
   );
   if (isLoading) return <h3>Loading...</h3>;
   if (isError)
