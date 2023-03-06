@@ -27,7 +27,6 @@ async function updatePost(postId) {
 }
 
 export function PostDetail({ post }) {
-  // replace with useQuery
   const { data, isError, isLoading, error } = useQuery(
     ['comments', post.id],
     () => fetchComments(post.id)
